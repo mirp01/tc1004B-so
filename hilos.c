@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 void* holaHilo(){
-    printf("hola desde un hilo \n")
+    printf("hola desde un hilo \n");
 }
 
 int main(){
