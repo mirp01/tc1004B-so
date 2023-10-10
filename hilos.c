@@ -9,7 +9,14 @@ void* holaHilo(){
 int main(){
     pthread_t t; 
     pthread_create(&t, NULL, holaHilo, NULL);
-    pthread_exit(NULL)
+    pthread_exit(NULL);
+
+    int n = 5;
+
+    for (int i : n) {
+        pthread_create(&t, NULL, holaHilo, NULL);
+        pthread_exit(NULL)
+    }
 
     return 0;
 }
