@@ -20,7 +20,7 @@ int main(){
     //pthread_create(&t, NULL, holaHilo, NULL);
     //pthread_exit(NULL);
 
-    int n = 5;
+    int n = 100;
     int saldo = 0;
 
     for (int i = 1; i <= n; i++) {
